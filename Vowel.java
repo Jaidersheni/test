@@ -10,10 +10,10 @@ public static void main(String []arg){
 	String Output;
 	String vowel="aeiouAEIOU";
 	if(vowel.contains(Input)){
-		Output="True";
+		Output="Vowel";
 		System.out.println(Output);}
 	else{
-		Output="False";
+		Output="Consonant";
 		System.out.println(Output);
 	}
 }
